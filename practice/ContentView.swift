@@ -43,7 +43,7 @@ struct ContentView: View {
 //                Text("Select an item")
                 
             }
-            .navigationTitle("Start Here")
+            .navigationTitle("Detroit's Finest")
         }
     }//VSTack
         
