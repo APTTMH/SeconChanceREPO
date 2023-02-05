@@ -9,7 +9,31 @@ import SwiftUI
 
 struct TemplateView: View {
     var body: some View {
-        Text("Template Test")
+        NavigationView{
+            VStack{
+                HStack{
+                    Text("Title")
+                        .font(.title)
+//                        .frame(height:300)
+                        .padding(46)
+                }
+                Text("""
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Suspendisse non neque et nunc acilisis pretium in id urna.
+                    Nunc accumsan sapien id dapibus rutrum.
+                    """) //Crafting Stanzas for poem
+                .padding()
+                
+                
+//                Divider()
+                Image(systemName: "star")
+                    .resizable()
+                    .scaledToFit()
+                    .padding()
+                
+            }//End of VStack
+            
+        }// End of Nav. View
     }
 }
 
