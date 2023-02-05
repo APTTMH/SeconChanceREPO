@@ -20,6 +20,8 @@
 		A17E5A372990424B003BF1B3 /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E5A362990424B003BF1B3 /* TemplateView.swift */; };
 		A17E5A3E299048E2003BF1B3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E5A3D299048E2003BF1B3 /* MapView.swift */; };
 		A17E5A40299048EC003BF1B3 /* TemplateTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E5A3F299048EC003BF1B3 /* TemplateTwoView.swift */; };
+		A17E5A4229905123003BF1B3 /* MelanieTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E5A4129905123003BF1B3 /* MelanieTemplateView.swift */; };
+		A17E5A442990531F003BF1B3 /* KrissieTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E5A432990531F003BF1B3 /* KrissieTemplateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		A17E5A362990424B003BF1B3 /* TemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateView.swift; sourceTree = "<group>"; };
 		A17E5A3D299048E2003BF1B3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		A17E5A3F299048EC003BF1B3 /* TemplateTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateTwoView.swift; sourceTree = "<group>"; };
+		A17E5A4129905123003BF1B3 /* MelanieTemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelanieTemplateView.swift; sourceTree = "<group>"; };
+		A17E5A432990531F003BF1B3 /* KrissieTemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrissieTemplateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				A17E5A362990424B003BF1B3 /* TemplateView.swift */,
 				A17E5A3D299048E2003BF1B3 /* MapView.swift */,
 				A17E5A3F299048EC003BF1B3 /* TemplateTwoView.swift */,
+				A17E5A4129905123003BF1B3 /* MelanieTemplateView.swift */,
+				A17E5A432990531F003BF1B3 /* KrissieTemplateView.swift */,
 				669E00142984224C00E8A142 /* Assets.xcassets */,
 				669E00192984224C00E8A142 /* Persistence.swift */,
 				669E001B2984224C00E8A142 /* practice.xcdatamodeld */,
@@ -281,8 +287,9 @@
 				669E00132984224B00E8A142 /* ContentView.swift in Sources */,
 				A17E5A372990424B003BF1B3 /* TemplateView.swift in Sources */,
 				669E00112984224B00E8A142 /* practiceApp.swift in Sources */,
-				66F2008C299051A0005999DC /* DahimeView.swift in Sources */,
+
 				A17E5A40299048EC003BF1B3 /* TemplateTwoView.swift in Sources */,
+				A17E5A442990531F003BF1B3 /* KrissieTemplateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
