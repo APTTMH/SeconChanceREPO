@@ -14,7 +14,8 @@ struct MelanieTemplateView: View {
 }
 
 struct MelanieTemplateView_Previews: PreviewProvider {
-    static var previews: some View {
+    static var previews: some View
+    {
         MelanieTemplateView()
     }
 }

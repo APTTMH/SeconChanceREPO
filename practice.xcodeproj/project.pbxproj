@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66492ABA2990590C00256D27 /* MelanieTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E5A4129905123003BF1B3 /* MelanieTemplateView.swift */; };
+		66492ABB2990591800256D27 /* DahimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F2008B299051A0005999DC /* DahimeView.swift */; };
 		669E00112984224B00E8A142 /* practiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669E00102984224B00E8A142 /* practiceApp.swift */; };
 		669E00132984224B00E8A142 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669E00122984224B00E8A142 /* ContentView.swift */; };
 		669E00152984224C00E8A142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669E00142984224C00E8A142 /* Assets.xcassets */; };
@@ -16,11 +18,9 @@
 		669E00272984224C00E8A142 /* practiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669E00262984224C00E8A142 /* practiceTests.swift */; };
 		669E00312984224C00E8A142 /* practiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669E00302984224C00E8A142 /* practiceUITests.swift */; };
 		669E00332984224C00E8A142 /* practiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669E00322984224C00E8A142 /* practiceUITestsLaunchTests.swift */; };
-		66F2008C299051A0005999DC /* DahimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F2008B299051A0005999DC /* DahimeView.swift */; };
 		A17E5A372990424B003BF1B3 /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E5A362990424B003BF1B3 /* TemplateView.swift */; };
 		A17E5A3E299048E2003BF1B3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E5A3D299048E2003BF1B3 /* MapView.swift */; };
 		A17E5A40299048EC003BF1B3 /* TemplateTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E5A3F299048EC003BF1B3 /* TemplateTwoView.swift */; };
-		A17E5A4229905123003BF1B3 /* MelanieTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E5A4129905123003BF1B3 /* MelanieTemplateView.swift */; };
 		A17E5A442990531F003BF1B3 /* KrissieTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E5A432990531F003BF1B3 /* KrissieTemplateView.swift */; };
 /* End PBXBuildFile section */
 
@@ -281,14 +281,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66492ABB2990591800256D27 /* DahimeView.swift in Sources */,
 				669E001D2984224C00E8A142 /* practice.xcdatamodeld in Sources */,
 				A17E5A3E299048E2003BF1B3 /* MapView.swift in Sources */,
 				669E001A2984224C00E8A142 /* Persistence.swift in Sources */,
 				669E00132984224B00E8A142 /* ContentView.swift in Sources */,
 				A17E5A372990424B003BF1B3 /* TemplateView.swift in Sources */,
 				669E00112984224B00E8A142 /* practiceApp.swift in Sources */,
-
 				A17E5A40299048EC003BF1B3 /* TemplateTwoView.swift in Sources */,
+				66492ABA2990590C00256D27 /* MelanieTemplateView.swift in Sources */,
 				A17E5A442990531F003BF1B3 /* KrissieTemplateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
