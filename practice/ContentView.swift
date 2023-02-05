@@ -19,7 +19,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack{
-                Text ("Today is Friday!")
+                Text ("Today is Sunday!")
                 List {
                     ForEach(items) { item in
                         NavigationLink {
