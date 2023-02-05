@@ -18,7 +18,7 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            ZStack{
+            VStack{
                 Text ("Today is Friday!")
                 List {
                     ForEach(items) { item in
