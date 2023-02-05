@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MelanieTemplateView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Use Details Pro App to Create Me!")
     }
 }
 
