@@ -19,7 +19,11 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack{
+Tester-branch
                 Text ("Today is a good day")
+
+                Text ("Today is Sunday!")
+
                 List {
                     ForEach(items) { item in
                         NavigationLink {
@@ -36,7 +40,11 @@ struct ContentView: View {
                     }
                     ToolbarItem {
                         Button(action: addItem) {
+Tester-branch
                             Label("Add Item", systemImage: "person.fill")
+
+                            Label("Add Item!", systemImage: "trash")
+main
                         }
                     }
                 }
