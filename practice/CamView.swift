@@ -25,7 +25,7 @@ struct MyTrips: View {
                         .font(.title)
                     Spacer()
                 }
-                .padding(.top, 36)
+                
                 HStack(spacing: 10) {
                     Image("myImage")
                         .renderingMode(.original)
@@ -33,7 +33,7 @@ struct MyTrips: View {
                         .aspectRatio(contentMode: .fill)
                         .frame(width: 70, height: 70)
                         .clipped()
-                        .mask { RoundedRectangle(cornerRadius: 8, style: .continuous) }
+//                        .mask { RoundedRectangle(cornerRadius: 8, style: .continuous) }
                     VStack(alignment: .leading, spacing: 2) {
                         Text("Chicago, IL")
                             .font(.system(size: 16, weight: .medium, design: .default))
