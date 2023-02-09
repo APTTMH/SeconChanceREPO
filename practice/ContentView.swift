@@ -49,8 +49,11 @@ struct ContentView: View {
                     }
                 }
 //                Text("Select an item")
-                
-            }
+                VStack{
+                    Text("Test")
+                    //P183_CircularList
+                }
+            }// End of VStack
             .navigationTitle("Detroit's Finest")
         }
     }//VSTack
