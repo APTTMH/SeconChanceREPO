@@ -19,7 +19,9 @@
 		669E00312984224C00E8A142 /* practiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669E00302984224C00E8A142 /* practiceUITests.swift */; };
 		669E00332984224C00E8A142 /* practiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669E00322984224C00E8A142 /* practiceUITestsLaunchTests.swift */; };
 		A160EF1F2992A9C9001F069A /* SemiCircleMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160EF1E2992A9C9001F069A /* SemiCircleMenuView.swift */; };
+
 		A160EF2129953797001F069A /* NavStack.MVVM.View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160EF2029953797001F069A /* NavStack.MVVM.View.swift */; };
+
 		A17E5A372990424B003BF1B3 /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E5A362990424B003BF1B3 /* TemplateView.swift */; };
 		A17E5A3E299048E2003BF1B3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E5A3D299048E2003BF1B3 /* MapView.swift */; };
 		A17E5A40299048EC003BF1B3 /* TemplateTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E5A3F299048EC003BF1B3 /* TemplateTwoView.swift */; };
@@ -59,7 +61,9 @@
 		669E00322984224C00E8A142 /* practiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practiceUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		66F2008B299051A0005999DC /* DahimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DahimeView.swift; sourceTree = "<group>"; };
 		A160EF1E2992A9C9001F069A /* SemiCircleMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiCircleMenuView.swift; sourceTree = "<group>"; };
+
 		A160EF2029953797001F069A /* NavStack.MVVM.View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavStack.MVVM.View.swift; sourceTree = "<group>"; };
+
 		A17E5A362990424B003BF1B3 /* TemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateView.swift; sourceTree = "<group>"; };
 		A17E5A3D299048E2003BF1B3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		A17E5A3F299048EC003BF1B3 /* TemplateTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateTwoView.swift; sourceTree = "<group>"; };
