@@ -22,7 +22,7 @@ struct ContentView: View {
 
                 Text ("Today is a good day")
 
-                Text ("Today is Monday!")
+                Text ("Today is Thursday!")
 
                 List {
                     ForEach(items) { item in
