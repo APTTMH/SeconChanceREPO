@@ -1,5 +1,5 @@
 //
-//  MyTrips.swift
+//  BlankiPhone.swift
 //  MyProject
 //
 //  Designed in DetailsPro
@@ -8,9 +8,23 @@
 
 import SwiftUI
 
-struct MyTrips: View {
+struct BlankiPhone: View {
     var body: some View {
-        ZStack {
+        VStack {
+            Spacer()
+            HStack {
+                Text("Scribble")
+                    .padding(.bottom, 0)
+                    .font(.largeTitle.weight(.bold))
+                    .fixedSize(horizontal: false, vertical: true)
+                Image(systemName: "scribble")
+                    .imageScale(.large)
+                    .symbolRenderingMode(.monochrome)
+                    .font(.largeTitle.weight(.black))
+                    .foregroundColor(.blue)
+                Text("Scraps!")
+                    .font(.largeTitle.weight(.bold))
+            }
             VStack {
                 HStack {
                     Text("What Up Doe?!")
@@ -30,8 +44,9 @@ struct MyTrips: View {
                     Image("myImage")
                         .renderingMode(.original)
                         .resizable()
-                        .aspectRatio(contentMode: .fill)
-                        .frame(width: 70, height: 70)
+                        .aspectRatio(contentMode: .fit)
+                        .mask { RoundedRectangle(cornerRadius: 90, style: .continuous) }
+                        .frame(width: 200)
                         .clipped()
 //                        .mask { RoundedRectangle(cornerRadius: 8, style: .continuous) }
                     VStack(alignment: .leading, spacing: 2) {
@@ -50,35 +65,26 @@ struct MyTrips: View {
                     Image("myImage")
                         .renderingMode(.original)
                         .resizable()
-                        .aspectRatio(contentMode: .fill)
-                        .frame(width: 70, height: 70)
+                        .aspectRatio(contentMode: .fit)
+                        .mask { RoundedRectangle(cornerRadius: 90, style: .continuous) }
+                        .frame(width: 200)
                         .clipped()
-                        .mask { RoundedRectangle(cornerRadius: 8, style: .continuous) }
-                    VStack(alignment: .leading, spacing: 2) {
-                        
-                    }
-                    .font(.subheadline)
-                    Spacer()
                 }
-                .padding(.bottom, 4)
-                HStack(spacing: 10) {
-                    VStack(alignment: .leading, spacing: 2) {
-                        
-                    }
-                    .font(.subheadline)
-                    Spacer()
-                }
-                .padding(.bottom, 4)
-                Spacer()
             }
-            .padding(.horizontal, 24)
+            Spacer()
+            Text("\"Scribble Long Scribble Wrong\"")
+                .font(.title3.weight(.bold))
+                .padding(30)
+            Spacer()
+            Divider()
+            Text("Coming Soon")
+            Spacer()
         }
-        .background(Image("myImage").resizable().aspectRatio(contentMode: .fill))
     }
 }
 
-struct MyTrips_Previews: PreviewProvider {
+struct BlankiPhone_Previews: PreviewProvider {
     static var previews: some View {
-        MyTrips()
+        BlankiPhone()
     }
 }
