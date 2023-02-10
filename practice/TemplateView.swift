@@ -26,7 +26,7 @@ struct TemplateView: View {
             .scaledToFit()
         )
         
-        }// End of Nav. View
+        }// End of Nav. View  
        
         
     }
