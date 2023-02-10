@@ -12,7 +12,8 @@ struct WhatsNew: View {
     var body: some View {
         VStack {
             Text("What's New \n In Second Chance App")
-                .font(.largeTitle.weight(.bold))
+                .font(.title.weight(.bold))
+//                .font(.largeTitle.weight(.bold))
             //                .frame(width: 240)
 //                .clipped()
             //                .multilineTextAlignment(.center)
@@ -111,7 +112,7 @@ struct WhatsNew: View {
                 .frame(width: 100, height :100)
                 
         }// End of VStack
-        
+        .padding()
     }
 }
 
