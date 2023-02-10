@@ -27,6 +27,20 @@ struct BlankiPhone: View {
             }
             VStack {
                 HStack {
+                    Text("What Up Doe?!")
+                        .font(.headline)
+                        .foregroundColor(.secondary)
+                    Spacer()
+                    Text("Sign Out")
+                }
+                .padding(.top, 76)
+                HStack {
+                    Text("My Trips")
+                        .font(.title)
+                    Spacer()
+                }
+                
+                HStack(spacing: 10) {
                     Image("myImage")
                         .renderingMode(.original)
                         .resizable()
@@ -34,6 +48,20 @@ struct BlankiPhone: View {
                         .mask { RoundedRectangle(cornerRadius: 90, style: .continuous) }
                         .frame(width: 200)
                         .clipped()
+//                        .mask { RoundedRectangle(cornerRadius: 8, style: .continuous) }
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text("Chicago, IL")
+                            .font(.system(size: 16, weight: .medium, design: .default))
+                        Text("May, 2023")
+                    }
+                    .font(.subheadline)
+                    Spacer()
+                    Image(systemName: "ellipsis")
+                        .foregroundColor(Color(.displayP3, red: 234/255, green: 76/255, blue: 97/255))
+                        .font(.title3)
+                }
+                .padding(.bottom, 4)
+                HStack(spacing: 10) {
                     Image("myImage")
                         .renderingMode(.original)
                         .resizable()
