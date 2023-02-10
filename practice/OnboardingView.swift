@@ -19,6 +19,7 @@ struct WhatsNew: View {
             //                .multilineTextAlignment(.center)
                 .padding(.top, 82)
                 .padding(.bottom, 52)
+                .foregroundColor(.orange)
             VStack(spacing: 28) {
                 HStack {
                     Image("climbMentorIcon")
@@ -29,9 +30,12 @@ struct WhatsNew: View {
                     VStack(alignment: .leading, spacing: 3) {
                         Text("Mentor")
                             .font(.footnote.weight(.semibold))
+                            .foregroundColor(.white)
+                            
+                            
                         Text("Speak with your mentor for guidance.")
                             .font(.footnote)
-                            .foregroundColor(.secondary)
+                            .foregroundColor(.white)
                     }
 //                    .fixedSize(horizontal: false, vertical: true)
                     Spacer()
@@ -45,9 +49,10 @@ struct WhatsNew: View {
                     VStack(alignment: .leading, spacing: 3) {
                         Text("Career Services")
                             .font(.footnote.weight(.semibold))
+                            .foregroundColor(.white)
                         Text("Peak into our career services.")
                             .font(.footnote)
-                            .foregroundColor(.secondary)
+                            .foregroundColor(.white)
                     }
 //                    .fixedSize(horizontal: false, vertical: true)
                     Spacer()
@@ -61,9 +66,10 @@ struct WhatsNew: View {
                     VStack(alignment: .leading, spacing: 3) {
                         Text("Profile")
                             .font(.footnote.weight(.semibold))
+                            .foregroundColor(.white)
                         Text("Create your profile to have full access")
                             .font(.footnote)
-                            .foregroundColor(.secondary)
+                            .foregroundColor(.white)
                     }
 //                    .fixedSize(horizontal: false, vertical: true)
                     Spacer()
@@ -77,9 +83,10 @@ struct WhatsNew: View {
                     VStack(alignment: .leading, spacing: 3) {
                         Text("Goal")
                             .font(.footnote.weight(.semibold))
+                            .foregroundColor(.white)
                         Text("Set goals and accomplish them.")
                             .font(.footnote)
-                            .foregroundColor(.secondary)
+                            .foregroundColor(.white)
                     }
 //                    .fixedSize(horizontal: false, vertical: true)
                     Spacer()
@@ -113,6 +120,7 @@ struct WhatsNew: View {
                 
         }// End of VStack
         .padding()
+        .background(.black)
     }
 }
 
