@@ -13,7 +13,7 @@ struct BackgroundReviseView: View {
             ZStack{
                 
                 NavigationLink(""){
-                    WhatsNew()
+                    WhatsNew() 
                 }
                     RoundedRectangle (cornerRadius: 25.0)
                         .fill(
