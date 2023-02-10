@@ -11,98 +11,116 @@ import SwiftUI
 struct WhatsNew: View {
     var body: some View {
         VStack {
-            Text("What's New in Second Chance App")
-                .font(.largeTitle.weight(.bold))
-                .frame(width: 240)
-                .clipped()
-                .multilineTextAlignment(.center)
+            Text("What's New \n In Second Chance App")
+                .font(.title.weight(.bold))
+//                .font(.largeTitle.weight(.bold))
+            //                .frame(width: 240)
+//                .clipped()
+            //                .multilineTextAlignment(.center)
                 .padding(.top, 82)
                 .padding(.bottom, 52)
+                .foregroundColor(.orange)
             VStack(spacing: 28) {
                 HStack {
-                    Image(systemName: "square.and.arrow.up")
+                    Image("climbMentorIcon")
                         .foregroundColor(.blue)
                         .font(.title.weight(.regular))
                         .frame(width: 60, height: 50)
-                        .clipped()
+//                        .clipped()
                     VStack(alignment: .leading, spacing: 3) {
-                        Text("Collaborate in Messages")
+                        Text("Mentor")
                             .font(.footnote.weight(.semibold))
-                        Text("Easily share, discuss, and see updates about your presentation.")
+                            .foregroundColor(.white)
+                            
+                            
+                        Text("Speak with your mentor for guidance.")
                             .font(.footnote)
-                            .foregroundColor(.secondary)
+                            .foregroundColor(.white)
                     }
-                    .fixedSize(horizontal: false, vertical: true)
+//                    .fixedSize(horizontal: false, vertical: true)
                     Spacer()
                 }
                 HStack {
-                    Image(systemName: "bubble.left.and.bubble.right")
+                    Image("careerRiseIcon")
                         .foregroundColor(.blue)
                         .font(.title.weight(.regular))
                         .frame(width: 60, height: 50)
-                        .clipped()
+//                        .clipped()
                     VStack(alignment: .leading, spacing: 3) {
-                        Text("See Latest Activity")
+                        Text("Career Services")
                             .font(.footnote.weight(.semibold))
-                        Text("Stay up to date on everyone's recent activity in collaborative presentations.")
+                            .foregroundColor(.white)
+                        Text("Peak into our career services.")
                             .font(.footnote)
-                            .foregroundColor(.secondary)
+                            .foregroundColor(.white)
                     }
-                    .fixedSize(horizontal: false, vertical: true)
+//                    .fixedSize(horizontal: false, vertical: true)
                     Spacer()
                 }
                 HStack {
-                    Image(systemName: "person.and.background.dotted")
+                    Image("profileIcon")
                         .foregroundColor(.blue)
                         .font(.title.weight(.regular))
                         .frame(width: 60, height: 50)
-                        .clipped()
+//                        .clipped()
                     VStack(alignment: .leading, spacing: 3) {
-                        Text("Remove Backgrounds")
+                        Text("Profile")
                             .font(.footnote.weight(.semibold))
-                        Text("Choose your own live video background for a dramatic effect or quickly isolate an image's subject.")
+                            .foregroundColor(.white)
+                        Text("Create your profile to have full access")
                             .font(.footnote)
-                            .foregroundColor(.secondary)
+                            .foregroundColor(.white)
                     }
-                    .fixedSize(horizontal: false, vertical: true)
+//                    .fixedSize(horizontal: false, vertical: true)
                     Spacer()
                 }
                 HStack {
-                    Image(systemName: "sparkles")
+                    Image("goalIcon")
                         .foregroundColor(.blue)
                         .font(.title.weight(.regular))
                         .frame(width: 60, height: 50)
-                        .clipped()
+//                        .clipped()
                     VStack(alignment: .leading, spacing: 3) {
-                        Text("And Lots More!")
+                        Text("Goal")
                             .font(.footnote.weight(.semibold))
-                        Text("More chart formatting options, new print and PDF export options, and more.")
+                            .foregroundColor(.white)
+                        Text("Set goals and accomplish them.")
                             .font(.footnote)
-                            .foregroundColor(.secondary)
+                            .foregroundColor(.white)
                     }
-                    .fixedSize(horizontal: false, vertical: true)
+//                    .fixedSize(horizontal: false, vertical: true)
                     Spacer()
                 }
             }
             HStack(alignment: .firstTextBaseline) {
-                Text("Complete feature list")
+                Text("Continue to Menu")
+                    .foregroundColor(.orange)
                 Image(systemName: "chevron.forward")
                     .imageScale(.small)
+                    .foregroundColor(.orange)
             }
-            .padding(.top, 32)
+            .padding(.top, 50)
             .foregroundColor(.blue)
             .font(.subheadline)
             Spacer()
-            Text("Continue")
-                .font(.callout.weight(.semibold))
-                .padding()
-                .frame(maxWidth: .infinity)
-                .clipped()
-                .foregroundColor(.white)
-                .background(.orange)
-                .mask { RoundedRectangle(cornerRadius: 16, style: .continuous) }
-                .padding(.bottom, 60)
-        }
+//            Text("Continue")
+//                .font(.callout.weight(.semibold))
+//                .padding()
+//                .frame(maxWidth: .infinity)
+////                .clipped()
+//                .foregroundColor(.white)
+//                .background(.orange)
+//                .mask { RoundedRectangle(cornerRadius: 16, style: .continuous) }
+//                .padding(.bottom, 60)
+            
+        Image("secondChanceLogo")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 100, height :100)
+                
+        }// End of VStack
+        .padding()
+        .background(.black)
     }
 }
 
