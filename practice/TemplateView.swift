@@ -9,21 +9,28 @@ import SwiftUI
 
 struct TemplateView: View {
     var body: some View {
-        NavigationStack {
+        NavigationView {
+        VStack{
             ZStack{
-            BackgroundView()
-            RoundedBackgroundShapeView()
+                BackgroundView()
+                RoundedBackgroundShapeView()
                     .frame(height:700)
                     .opacity(0.5)
             }//End of ZStack
-          
-        }// End of Nav. View
-        Image("secondChance2")
+            
+                
+            }
+        .navigationBarItems(
+            trailing: Image("secondChanceLogo")//Right Align by design
             .resizable()
-        }
+            .scaledToFit()
+        )
+        
+        }// End of Nav. View
+       
         
     }
-
+}
 
 struct TemplateView_Previews: PreviewProvider {
     static var previews: some View {

@@ -22,6 +22,7 @@
 		A160EF2129953797001F069A /* NavStack.MVVM.View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160EF2029953797001F069A /* NavStack.MVVM.View.swift */; };
 		A160EF2329954A77001F069A /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160EF2229954A77001F069A /* BackgroundView.swift */; };
 		A160EF2529954F3C001F069A /* RoundedBackgroundShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160EF2429954F3C001F069A /* RoundedBackgroundShapeView.swift */; };
+		A160EF272995C1FE001F069A /* ImageCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160EF262995C1FE001F069A /* ImageCircleView.swift */; };
 		A17E5A372990424B003BF1B3 /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E5A362990424B003BF1B3 /* TemplateView.swift */; };
 		A17E5A3E299048E2003BF1B3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E5A3D299048E2003BF1B3 /* MapView.swift */; };
 		A17E5A40299048EC003BF1B3 /* TemplateTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E5A3F299048EC003BF1B3 /* TemplateTwoView.swift */; };
@@ -64,6 +65,7 @@
 		A160EF2029953797001F069A /* NavStack.MVVM.View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavStack.MVVM.View.swift; sourceTree = "<group>"; };
 		A160EF2229954A77001F069A /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		A160EF2429954F3C001F069A /* RoundedBackgroundShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBackgroundShapeView.swift; sourceTree = "<group>"; };
+		A160EF262995C1FE001F069A /* ImageCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCircleView.swift; sourceTree = "<group>"; };
 		A17E5A362990424B003BF1B3 /* TemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateView.swift; sourceTree = "<group>"; };
 		A17E5A3D299048E2003BF1B3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		A17E5A3F299048EC003BF1B3 /* TemplateTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateTwoView.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				A17E5A362990424B003BF1B3 /* TemplateView.swift */,
 				A17E5A3D299048E2003BF1B3 /* MapView.swift */,
 				A17E5A3F299048EC003BF1B3 /* TemplateTwoView.swift */,
+				A160EF262995C1FE001F069A /* ImageCircleView.swift */,
 				A160EF2229954A77001F069A /* BackgroundView.swift */,
 				A160EF2429954F3C001F069A /* RoundedBackgroundShapeView.swift */,
 				A17E5A4129905123003BF1B3 /* MelanieTemplateView.swift */,
@@ -296,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A160EF272995C1FE001F069A /* ImageCircleView.swift in Sources */,
 				A1936BB52991F91600F5C829 /* CamView.swift in Sources */,
 				66492ABB2990591800256D27 /* DahimeView.swift in Sources */,
 				A160EF2529954F3C001F069A /* RoundedBackgroundShapeView.swift in Sources */,
