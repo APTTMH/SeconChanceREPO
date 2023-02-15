@@ -10,6 +10,7 @@ import SwiftUI
 struct BackgroundReviseView: View {
     var body: some View{
         NavigationStack{
+            
             ZStack{
                 
                 NavigationLink(""){
@@ -24,27 +25,42 @@ struct BackgroundReviseView: View {
                         .ignoresSafeArea()
                     
                     Image("secondChanceLogo")
+                RoundedRectangle (cornerRadius: 25.0)
+                    .fill(
+                        Color.black
+                        //                LinearGradient(gradient: Gradient(colors: [Color.blue, Color.white]), startPoint: .top, endPoint: .bottom)
+                    )
+                //            .frame(width: 300, height: 300) //might use later
+                    .ignoresSafeArea()
+                // NavigationLink("Tap me") {
+                //  Text("Destination")
+                Image("secondChanceLogo")
+
                     
                     VStack{
                         Spacer(minLength: 70)
                         HStack{
-                            //Spacer()
+        
                             Text("To Reconnect | Develop")
                                 .foregroundColor(.orange)
                                 .font(.largeTitle)
                                 .padding(.bottom,75)
                         }
-                    }
-                }// end of Z stack
-            }// end of Nav Stack
-            
+                        NavigationLink("TAP ME"){
+                        // end of Z stack
+                    }// end of Nav Stack
+                    
+                }
+            }
         }
-        
+    }
         struct BackgroundReviseView_Previews: PreviewProvider {
             static var previews: some View {
                 BackgroundReviseView()
             }
         }
+        
+        
+        
     }
-    
 
