@@ -13,6 +13,18 @@ struct BackgroundReviseView: View {
             
             ZStack{
                 
+                NavigationLink(""){
+                    WhatsNew() 
+                }
+                    RoundedRectangle (cornerRadius: 25.0)
+                        .fill(
+                           
+                            //                LinearGradient(gradient: Gradient(colors: [Color.blue, Color.white]), startPoint: .top, endPoint: .bottom)
+                        )
+                    //            .frame(width: 300, height: 300) //might use later
+                        .ignoresSafeArea()
+                    
+                    Image("secondChanceLogo")
                 RoundedRectangle (cornerRadius: 25.0)
                     .fill(
                         Color.black
@@ -23,7 +35,7 @@ struct BackgroundReviseView: View {
                 // NavigationLink("Tap me") {
                 //  Text("Destination")
                 Image("secondChanceLogo")
-    
+
                     
                     VStack{
                         Spacer(minLength: 70)

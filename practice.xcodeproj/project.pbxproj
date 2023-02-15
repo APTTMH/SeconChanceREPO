@@ -30,6 +30,11 @@
 		A17E5A3E299048E2003BF1B3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E5A3D299048E2003BF1B3 /* MapView.swift */; };
 		A17E5A40299048EC003BF1B3 /* TemplateTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E5A3F299048EC003BF1B3 /* TemplateTwoView.swift */; };
 		A17E5A442990531F003BF1B3 /* KrissieTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E5A432990531F003BF1B3 /* KrissieTemplateView.swift */; };
+		A17F953B299D2E9700A2C1DF /* MentorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F953A299D2E9700A2C1DF /* MentorView.swift */; };
+		A17F953D299D3B8C00A2C1DF /* FaceTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F953C299D3B8C00A2C1DF /* FaceTimeView.swift */; };
+		A17F953F299D3C9000A2C1DF /* MentorTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F953E299D3C9000A2C1DF /* MentorTabView.swift */; };
+		A17F9541299D401000A2C1DF /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F9540299D401000A2C1DF /* CalendarView.swift */; };
+		A17F9543299D404E00A2C1DF /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F9542299D404E00A2C1DF /* MessageView.swift */; };
 		A1936BB52991F91600F5C829 /* CamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1936BB42991F91600F5C829 /* CamView.swift */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +82,11 @@
 		A17E5A3F299048EC003BF1B3 /* TemplateTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateTwoView.swift; sourceTree = "<group>"; };
 		A17E5A4129905123003BF1B3 /* MelanieTemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelanieTemplateView.swift; sourceTree = "<group>"; };
 		A17E5A432990531F003BF1B3 /* KrissieTemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrissieTemplateView.swift; sourceTree = "<group>"; };
+		A17F953A299D2E9700A2C1DF /* MentorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorView.swift; sourceTree = "<group>"; };
+		A17F953C299D3B8C00A2C1DF /* FaceTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTimeView.swift; sourceTree = "<group>"; };
+		A17F953E299D3C9000A2C1DF /* MentorTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorTabView.swift; sourceTree = "<group>"; };
+		A17F9540299D401000A2C1DF /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		A17F9542299D404E00A2C1DF /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		A1936BB42991F91600F5C829 /* CamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,6 +152,11 @@
 				A160EF262995C1FE001F069A /* ImageCircleView.swift */,
 				A160EF2229954A77001F069A /* BackgroundView.swift */,
 				A160EF2A29969430001F069A /* BackgroundReviseView.swift */,
+				A17F953A299D2E9700A2C1DF /* MentorView.swift */,
+				A17F953C299D3B8C00A2C1DF /* FaceTimeView.swift */,
+				A17F9540299D401000A2C1DF /* CalendarView.swift */,
+				A17F9542299D404E00A2C1DF /* MessageView.swift */,
+				A17F953E299D3C9000A2C1DF /* MentorTabView.swift */,
 				A160EF2429954F3C001F069A /* RoundedBackgroundShapeView.swift */,
 				A17E5A4129905123003BF1B3 /* MelanieTemplateView.swift */,
 				A17E5A432990531F003BF1B3 /* KrissieTemplateView.swift */,
@@ -310,8 +325,12 @@
 			files = (
 				A160EF272995C1FE001F069A /* ImageCircleView.swift in Sources */,
 				A1936BB52991F91600F5C829 /* CamView.swift in Sources */,
+				A17F953D299D3B8C00A2C1DF /* FaceTimeView.swift in Sources */,
+				A17F953F299D3C9000A2C1DF /* MentorTabView.swift in Sources */,
 				66492ABB2990591800256D27 /* DahimeView.swift in Sources */,
 				A160EF2529954F3C001F069A /* RoundedBackgroundShapeView.swift in Sources */,
+				A17F9541299D401000A2C1DF /* CalendarView.swift in Sources */,
+				A17F953B299D2E9700A2C1DF /* MentorView.swift in Sources */,
 				669E001D2984224C00E8A142 /* practice.xcdatamodeld in Sources */,
 				A17E5A3E299048E2003BF1B3 /* MapView.swift in Sources */,
 				669E001A2984224C00E8A142 /* Persistence.swift in Sources */,
@@ -324,6 +343,7 @@
 				A160EF2329954A77001F069A /* BackgroundView.swift in Sources */,
 				66492ABA2990590C00256D27 /* MelanieTemplateView.swift in Sources */,
 				A17E5A442990531F003BF1B3 /* KrissieTemplateView.swift in Sources */,
+				A17F9543299D404E00A2C1DF /* MessageView.swift in Sources */,
 				A160EF292996921B001F069A /* OnboardingView.swift in Sources */,
 				A160EF1F2992A9C9001F069A /* SemiCircleMenuView.swift in Sources */,
 				66FCACE1299D2FED00A9D7C2 /* TabView.swift in Sources */,
