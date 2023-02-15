@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MentorTabView: View {
     var body: some View {
-        TabView{
+      //  TabView{
             FaceTimeView()
             .tabItem {
                 Image(systemName: "video")
@@ -26,12 +26,13 @@ struct MentorTabView: View {
                 Text("Message")
             }
         }//End of TabView
-        .font(.system(size:30, weight: .bold, design: .rounded))
+      //  .font(.system(size:30, weight: .bold, design: .rounded))
     }
-}
+
 
 struct MentorTabView_Previews: PreviewProvider {
     static var previews: some View {
         MentorTabView()
     }
 }
+

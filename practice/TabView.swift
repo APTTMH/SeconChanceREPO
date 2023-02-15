@@ -52,26 +52,44 @@ struct TabView: View {
                 .frame(height: 45)
                 .clipped()
                 .foregroundColor(.orange)
+                VStack(spacing: 4) {
+                    Image(systemName: "ellipsis.message")
+                        .imageScale(.large)
+                        .frame(height: 26)
+                        .clipped()
+                    Text("Messaging")
+                        .font(.caption2)
+                }
+                        .frame(maxWidth: .infinity)
+                        .clipped()
+                        .frame(height: 45)
+                        .clipped()
+                        .foregroundColor(.orange)
+                    
+                }
                 
             }
             .padding(.horizontal, 15)
             .padding(.top, 5)
             .foregroundColor(.secondary)
-        }
+        
         .frame(height: 84, alignment: .top)
         .clipped()
         .background {
             Rectangle()
                 .fill(.clear)
                 .background(Material.bar)
+            
+            
         }
-        
     }
         struct TabView_Previews: PreviewProvider {
             static var previews: some View {
                 TabView()
             }
         }
+        
+        
         
     }
 
