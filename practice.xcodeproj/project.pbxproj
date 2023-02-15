@@ -18,6 +18,7 @@
 		669E00272984224C00E8A142 /* practiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669E00262984224C00E8A142 /* practiceTests.swift */; };
 		669E00312984224C00E8A142 /* practiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669E00302984224C00E8A142 /* practiceUITests.swift */; };
 		669E00332984224C00E8A142 /* practiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669E00322984224C00E8A142 /* practiceUITestsLaunchTests.swift */; };
+		66FCACE1299D2FED00A9D7C2 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FCACE0299D2FED00A9D7C2 /* TabView.swift */; };
 		A160EF1F2992A9C9001F069A /* SemiCircleMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160EF1E2992A9C9001F069A /* SemiCircleMenuView.swift */; };
 		A160EF2129953797001F069A /* NavStack.MVVM.View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160EF2029953797001F069A /* NavStack.MVVM.View.swift */; };
 		A160EF2329954A77001F069A /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160EF2229954A77001F069A /* BackgroundView.swift */; };
@@ -63,6 +64,7 @@
 		669E00302984224C00E8A142 /* practiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practiceUITests.swift; sourceTree = "<group>"; };
 		669E00322984224C00E8A142 /* practiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practiceUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		66F2008B299051A0005999DC /* DahimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DahimeView.swift; sourceTree = "<group>"; };
+		66FCACE0299D2FED00A9D7C2 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		A160EF1E2992A9C9001F069A /* SemiCircleMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiCircleMenuView.swift; sourceTree = "<group>"; };
 		A160EF2029953797001F069A /* NavStack.MVVM.View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavStack.MVVM.View.swift; sourceTree = "<group>"; };
 		A160EF2229954A77001F069A /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				669E00102984224B00E8A142 /* practiceApp.swift */,
 				A160EF2029953797001F069A /* NavStack.MVVM.View.swift */,
 				669E00122984224B00E8A142 /* ContentView.swift */,
+				66FCACE0299D2FED00A9D7C2 /* TabView.swift */,
 				A1936BB42991F91600F5C829 /* CamView.swift */,
 				A160EF1E2992A9C9001F069A /* SemiCircleMenuView.swift */,
 				A160EF282996921B001F069A /* OnboardingView.swift */,
@@ -323,6 +326,7 @@
 				A17E5A442990531F003BF1B3 /* KrissieTemplateView.swift in Sources */,
 				A160EF292996921B001F069A /* OnboardingView.swift in Sources */,
 				A160EF1F2992A9C9001F069A /* SemiCircleMenuView.swift in Sources */,
+				66FCACE1299D2FED00A9D7C2 /* TabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
