@@ -35,37 +35,34 @@ struct BackgroundReviseView: View {
                 // NavigationLink("Tap me") {
                 //  Text("Destination")
                 Image("secondChanceLogo")
-
+                
                 
                 
                 VStack{
                     Spacer(minLength: 70)
                     HStack{
                         
-                           NavigationLink("To Reconnect | Develop", destination: MentorTabView())
-                        .foregroundColor(.orange)
-                        .font(.largeTitle)
-                        .padding(.bottom,75)
+                        NavigationLink("To Reconnect | Develop", destination: MentorTabView())
+                            .foregroundColor(.orange)
+                            .font(.largeTitle)
+                            .padding(.bottom,75)
                     }
-                 //   NavigationLink("TAP ME"){
-                        // end of Z stack
-                        
-                    }// end of Nav Stack
-
+                    //   NavigationLink("TAP ME"){
+                    // end of Z stack
                     
-                    VStack{
-                        Spacer(minLength: 70)
-                        HStack{
-        
-                            Text("To Reconnect | Develop")
-                                .foregroundColor(.orange)
-                                .font(.largeTitle)
-                                .padding(.bottom,75)
-                        }
-//                        NavigationLink("TAP ME"){
-                        // end of Z stack
-//                    }// end of Nav Stack
-
+                }// end of Nav Stack
+                
+                
+                VStack{
+                    Spacer(minLength: 70)
+                    HStack{
+                        
+                      
+                    }
+                    //                        NavigationLink("TAP ME"){
+                    // end of Z stack
+                    // end of Nav Stack
+                    
                     
                 }
             }
@@ -77,6 +74,7 @@ struct BackgroundReviseView: View {
         }
     }
     
+}
     
     
 
