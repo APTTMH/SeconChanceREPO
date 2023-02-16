@@ -8,7 +8,7 @@
 import SwiftUI
 
 
-struct TabView: View {
+struct TabTwoView: View {
     var body: some View {
         VStack(spacing: 0) {
             Divider()
@@ -85,7 +85,7 @@ struct TabView: View {
     }
         struct TabView_Previews: PreviewProvider {
             static var previews: some View {
-                TabView()
+                TabTwoView()
             }
         }
         

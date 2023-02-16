@@ -35,6 +35,7 @@ struct BackgroundReviseView: View {
                 // NavigationLink("Tap me") {
                 //  Text("Destination")
                 Image("secondChanceLogo")
+
                 
                 
                 VStack{
@@ -50,6 +51,21 @@ struct BackgroundReviseView: View {
                         // end of Z stack
                         
                     }// end of Nav Stack
+
+                    
+                    VStack{
+                        Spacer(minLength: 70)
+                        HStack{
+        
+                            Text("To Reconnect | Develop")
+                                .foregroundColor(.orange)
+                                .font(.largeTitle)
+                                .padding(.bottom,75)
+                        }
+//                        NavigationLink("TAP ME"){
+                        // end of Z stack
+//                    }// end of Nav Stack
+
                     
                 }
             }
