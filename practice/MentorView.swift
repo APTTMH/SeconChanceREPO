@@ -25,7 +25,7 @@ struct MentorView: View {
 //                            .font(.largeTitle)
 //                            .foregroundColor(.green)
                     
-                }//End of ZStack 
+                }//End of ZStack  
             }//End of VStack
 //            MentorTabView()
         }//End of Nav.Stack
