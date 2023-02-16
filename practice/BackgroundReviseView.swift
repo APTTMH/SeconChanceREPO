@@ -46,9 +46,9 @@ struct BackgroundReviseView: View {
                                 .font(.largeTitle)
                                 .padding(.bottom,75)
                         }
-                        NavigationLink("TAP ME"){
+//                        NavigationLink("TAP ME"){
                         // end of Z stack
-                    }// end of Nav Stack
+//                    }// end of Nav Stack
                     
                 }
             }

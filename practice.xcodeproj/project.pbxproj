@@ -35,6 +35,8 @@
 		A17F953F299D3C9000A2C1DF /* MentorTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F953E299D3C9000A2C1DF /* MentorTabView.swift */; };
 		A17F9541299D401000A2C1DF /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F9540299D401000A2C1DF /* CalendarView.swift */; };
 		A17F9543299D404E00A2C1DF /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F9542299D404E00A2C1DF /* MessageView.swift */; };
+		A17F9547299E81BF00A2C1DF /* ContentMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F9546299E81BF00A2C1DF /* ContentMessageView.swift */; };
+		A17F9549299E851800A2C1DF /* MessageLogicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F9548299E851800A2C1DF /* MessageLogicView.swift */; };
 		A1936BB52991F91600F5C829 /* CamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1936BB42991F91600F5C829 /* CamView.swift */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +89,8 @@
 		A17F953E299D3C9000A2C1DF /* MentorTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorTabView.swift; sourceTree = "<group>"; };
 		A17F9540299D401000A2C1DF /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		A17F9542299D404E00A2C1DF /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		A17F9546299E81BF00A2C1DF /* ContentMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMessageView.swift; sourceTree = "<group>"; };
+		A17F9548299E851800A2C1DF /* MessageLogicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageLogicView.swift; sourceTree = "<group>"; };
 		A1936BB42991F91600F5C829 /* CamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,7 +159,7 @@
 				A17F953A299D2E9700A2C1DF /* MentorView.swift */,
 				A17F953C299D3B8C00A2C1DF /* FaceTimeView.swift */,
 				A17F9540299D401000A2C1DF /* CalendarView.swift */,
-				A17F9542299D404E00A2C1DF /* MessageView.swift */,
+				A17F954A299E86AD00A2C1DF /* Messaging  */,
 				A17F953E299D3C9000A2C1DF /* MentorTabView.swift */,
 				A160EF2429954F3C001F069A /* RoundedBackgroundShapeView.swift */,
 				A17E5A4129905123003BF1B3 /* MelanieTemplateView.swift */,
@@ -191,6 +195,16 @@
 				669E00322984224C00E8A142 /* practiceUITestsLaunchTests.swift */,
 			);
 			path = practiceUITests;
+			sourceTree = "<group>";
+		};
+		A17F954A299E86AD00A2C1DF /* Messaging  */ = {
+			isa = PBXGroup;
+			children = (
+				A17F9548299E851800A2C1DF /* MessageLogicView.swift */,
+				A17F9542299D404E00A2C1DF /* MessageView.swift */,
+				A17F9546299E81BF00A2C1DF /* ContentMessageView.swift */,
+			);
+			path = "Messaging ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,6 +348,7 @@
 				669E001D2984224C00E8A142 /* practice.xcdatamodeld in Sources */,
 				A17E5A3E299048E2003BF1B3 /* MapView.swift in Sources */,
 				669E001A2984224C00E8A142 /* Persistence.swift in Sources */,
+				A17F9549299E851800A2C1DF /* MessageLogicView.swift in Sources */,
 				669E00132984224B00E8A142 /* ContentView.swift in Sources */,
 				A160EF2B29969430001F069A /* BackgroundReviseView.swift in Sources */,
 				A17E5A372990424B003BF1B3 /* TemplateView.swift in Sources */,
@@ -341,6 +356,7 @@
 				A160EF2129953797001F069A /* NavStack.MVVM.View.swift in Sources */,
 				A17E5A40299048EC003BF1B3 /* TemplateTwoView.swift in Sources */,
 				A160EF2329954A77001F069A /* BackgroundView.swift in Sources */,
+				A17F9547299E81BF00A2C1DF /* ContentMessageView.swift in Sources */,
 				66492ABA2990590C00256D27 /* MelanieTemplateView.swift in Sources */,
 				A17E5A442990531F003BF1B3 /* KrissieTemplateView.swift in Sources */,
 				A17F9543299D404E00A2C1DF /* MessageView.swift in Sources */,
