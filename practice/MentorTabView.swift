@@ -27,7 +27,7 @@ struct MentorTabView: View {
                     }
             }//End of TabView
                     .font(.system(size:30, weight: .bold, design: .rounded))
-        
+         
         }
 }
 
