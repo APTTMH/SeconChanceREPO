@@ -14,6 +14,19 @@ struct TabTwoView: View {
             Divider()
             HStack(spacing: 10) {
                 VStack(spacing: 4) {
+                    Image(systemName: "person.line.dotted.person")
+                        .imageScale(.large)
+                        .frame(height: 26)
+                        .clipped()
+                    Text("Mentor")
+                        .font(.caption2)
+                }
+                .frame(maxWidth: .infinity)
+                .clipped()
+                .frame(height: 45)
+                .clipped()
+                .foregroundColor(.orange)
+                VStack(spacing: 4) {
                     Image(systemName: "briefcase")
                         .imageScale(.large)
                         .frame(height: 26)
@@ -27,24 +40,11 @@ struct TabTwoView: View {
                 .clipped()
                 .foregroundColor(.orange)
                 VStack(spacing: 4) {
-                    Image(systemName: "checklist")
+                    Image(systemName: "person")
                         .imageScale(.large)
                         .frame(height: 26)
                         .clipped()
-                    Text("Goals")
-                        .font(.caption2)
-                }
-                .frame(maxWidth: .infinity)
-                .clipped()
-                .frame(height: 45)
-                .clipped()
-                .foregroundColor(.orange)
-                VStack(spacing: 4) {
-                    Image(systemName: "person.line.dotted.person")
-                        .imageScale(.large)
-                        .frame(height: 26)
-                        .clipped()
-                    Text("Mentor")
+                    Text("Profile")
                         .font(.caption2)
                 }
                 .frame(maxWidth: .infinity)

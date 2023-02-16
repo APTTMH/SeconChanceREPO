@@ -14,17 +14,17 @@ struct BackgroundReviseView: View {
             ZStack{
                 
                 NavigationLink(""){
-                    WhatsNew() 
+                    WhatsNew()
                 }
-                    RoundedRectangle (cornerRadius: 25.0)
-                        .fill(
-                           
-                            //                LinearGradient(gradient: Gradient(colors: [Color.blue, Color.white]), startPoint: .top, endPoint: .bottom)
-                        )
-                    //            .frame(width: 300, height: 300) //might use later
-                        .ignoresSafeArea()
-                    
-                    Image("secondChanceLogo")
+                RoundedRectangle (cornerRadius: 25.0)
+                    .fill(
+                        
+                        //                LinearGradient(gradient: Gradient(colors: [Color.blue, Color.white]), startPoint: .top, endPoint: .bottom)
+                    )
+                //            .frame(width: 300, height: 300) //might use later
+                    .ignoresSafeArea()
+                
+                Image("secondChanceLogo")
                 RoundedRectangle (cornerRadius: 25.0)
                     .fill(
                         Color.black
@@ -35,6 +35,22 @@ struct BackgroundReviseView: View {
                 // NavigationLink("Tap me") {
                 //  Text("Destination")
                 Image("secondChanceLogo")
+
+                
+                
+                VStack{
+                    Spacer(minLength: 70)
+                    HStack{
+                        
+                           NavigationLink("To Reconnect | Develop", destination: MentorTabView())
+                        .foregroundColor(.orange)
+                        .font(.largeTitle)
+                        .padding(.bottom,75)
+                    }
+                 //   NavigationLink("TAP ME"){
+                        // end of Z stack
+                        
+                    }// end of Nav Stack
 
                     
                     VStack{
@@ -49,18 +65,18 @@ struct BackgroundReviseView: View {
 //                        NavigationLink("TAP ME"){
                         // end of Z stack
 //                    }// end of Nav Stack
+
                     
                 }
             }
         }
     }
-        struct BackgroundReviseView_Previews: PreviewProvider {
-            static var previews: some View {
-                BackgroundReviseView()
-            }
+    struct BackgroundReviseView_Previews: PreviewProvider {
+        static var previews: some View {
+            BackgroundReviseView()
         }
-        
-        
-        
     }
+    
+    
+    
 
