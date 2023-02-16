@@ -13,21 +13,10 @@ struct MentorView: View {
         NavigationStack{
             VStack{
                 ZStack{
-//                        Image(systemName: "person.crop.rectangle")
-//                            .resizable()
-//                            .scaledToFit()
-//                            .padding()
-//                            .font(.largeTitle)
-//                        Image(systemName: "play.square.fill")
-//                            .resizable()
-//                            .scaledToFit()
-//                            .padding()
-//                            .font(.largeTitle)
-//                            .foregroundColor(.green)
                     
                 }//End of ZStack  
             }//End of VStack
-//            MentorTabView()
+            MentorTabView()
         }//End of Nav.Stack
     }
 }

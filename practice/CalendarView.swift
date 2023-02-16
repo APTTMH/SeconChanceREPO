@@ -8,18 +8,24 @@
 import SwiftUI
 
 struct CalendarView: View {
-    @State private var meetingDate = Date.now
+    @State private var date = Date()
     
     var body: some View {
-        VStack{
-//            DatePicker(selection: $meetingDate, in: ...Date.now, displayedComponents: .date)
-//            Text("Select a date")
-        }//End VStack
+            DatePicker(
+                "Start Date",
+                selection: $date,
+                displayedComponents: [.date]
+            )
+            .datePickerStyle(.graphical)
+        }
     }
-}
 
 struct CalendarView_Previews: PreviewProvider {
     static var previews: some View {
         CalendarView()
     }
 }
+
+
+
+//Retrieved from https://sarunw.com/posts/swiftui-multidatepicker/
