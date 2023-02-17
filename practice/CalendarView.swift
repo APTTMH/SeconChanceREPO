@@ -8,15 +8,19 @@
 import SwiftUI
 
 struct CalendarView: View {
-    @State private var date = Date()
-    
+    @State private var currentDate = Date()
+    @State private var futureDate = Date()
+    @State private var mentorName = String()
+ 
+
     var body: some View {
-            DatePicker(
-                "Start Date",
-                selection: $date,
-                displayedComponents: [.date]
-            )
+        VStack{
+            DatePicker("Start Date", selection: $futureDate, displayedComponents: [.date, .hourAndMinute] )
             .datePickerStyle(.graphical)
+            Divider()
+            Text("Thank you for registering with \(mentorName) on \(futureDate).")
+                .padding()
+            }
         }
     }
 
@@ -29,3 +33,4 @@ struct CalendarView_Previews: PreviewProvider {
 
 
 //Retrieved from https://sarunw.com/posts/swiftui-multidatepicker/
+//Retrieved from https://daddycoding.com/2019/12/18/swiftui-datepicker-timepicker/
