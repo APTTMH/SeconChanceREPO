@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		660CBF1029A513B200953451 /* FacetimeClone in Resources */ = {isa = PBXBuildFile; fileRef = 660CBF0F29A513B200953451 /* FacetimeClone */; };
 		66FCACEF29A3B78600A9D7C2 /* SecondChanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FCACEE29A3B78600A9D7C2 /* SecondChanceApp.swift */; };
 		66FCACF129A3B78600A9D7C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FCACF029A3B78600A9D7C2 /* ContentView.swift */; };
 		66FCACF329A3B78700A9D7C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FCACF229A3B78700A9D7C2 /* Assets.xcassets */; };
@@ -16,6 +17,14 @@
 		66FCAD0529A3B78700A9D7C2 /* SecondChanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FCAD0429A3B78700A9D7C2 /* SecondChanceTests.swift */; };
 		66FCAD0F29A3B78700A9D7C2 /* SecondChanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FCAD0E29A3B78700A9D7C2 /* SecondChanceUITests.swift */; };
 		66FCAD1129A3B78700A9D7C2 /* SecondChanceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FCAD1029A3B78700A9D7C2 /* SecondChanceUITestsLaunchTests.swift */; };
+		66FCAD1E29A3BA4B00A9D7C2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FCAD1D29A3BA4B00A9D7C2 /* OnboardingView.swift */; };
+		66FCAD2029A3BAA200A9D7C2 /* MentorHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FCAD1F29A3BAA200A9D7C2 /* MentorHubView.swift */; };
+		66FCAD2229A3BB1F00A9D7C2 /* MentorTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FCAD2129A3BB1F00A9D7C2 /* MentorTabView.swift */; };
+		66FCAD2429A3BF8000A9D7C2 /* FaceTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FCAD2329A3BF8000A9D7C2 /* FaceTimeView.swift */; };
+		66FCAD2629A3C1EB00A9D7C2 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FCAD2529A3C1EB00A9D7C2 /* CalendarView.swift */; };
+		66FCAD2829A3C43A00A9D7C2 /* MessageLogicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FCAD2729A3C43A00A9D7C2 /* MessageLogicView.swift */; };
+		66FCAD2A29A3C47D00A9D7C2 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FCAD2929A3C47C00A9D7C2 /* MessageView.swift */; };
+		66FCAD2C29A3C50B00A9D7C2 /* ContentMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FCAD2B29A3C50B00A9D7C2 /* ContentMessageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		660CBF0F29A513B200953451 /* FacetimeClone */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FacetimeClone; path = ../../../Documents/FacetimeClone; sourceTree = "<group>"; };
 		66FCACEB29A3B78600A9D7C2 /* SecondChance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondChance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66FCACEE29A3B78600A9D7C2 /* SecondChanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondChanceApp.swift; sourceTree = "<group>"; };
 		66FCACF029A3B78600A9D7C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +58,14 @@
 		66FCAD0A29A3B78700A9D7C2 /* SecondChanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondChanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66FCAD0E29A3B78700A9D7C2 /* SecondChanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondChanceUITests.swift; sourceTree = "<group>"; };
 		66FCAD1029A3B78700A9D7C2 /* SecondChanceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondChanceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		66FCAD1D29A3BA4B00A9D7C2 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		66FCAD1F29A3BAA200A9D7C2 /* MentorHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorHubView.swift; sourceTree = "<group>"; };
+		66FCAD2129A3BB1F00A9D7C2 /* MentorTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorTabView.swift; sourceTree = "<group>"; };
+		66FCAD2329A3BF8000A9D7C2 /* FaceTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTimeView.swift; sourceTree = "<group>"; };
+		66FCAD2529A3C1EB00A9D7C2 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		66FCAD2729A3C43A00A9D7C2 /* MessageLogicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageLogicView.swift; sourceTree = "<group>"; };
+		66FCAD2929A3C47C00A9D7C2 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		66FCAD2B29A3C50B00A9D7C2 /* ContentMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMessageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +118,15 @@
 			children = (
 				66FCACEE29A3B78600A9D7C2 /* SecondChanceApp.swift */,
 				66FCACF029A3B78600A9D7C2 /* ContentView.swift */,
+				66FCAD1D29A3BA4B00A9D7C2 /* OnboardingView.swift */,
+				66FCAD1F29A3BAA200A9D7C2 /* MentorHubView.swift */,
+				660CBF0F29A513B200953451 /* FacetimeClone */,
+				66FCAD2129A3BB1F00A9D7C2 /* MentorTabView.swift */,
+				66FCAD2329A3BF8000A9D7C2 /* FaceTimeView.swift */,
+				66FCAD2529A3C1EB00A9D7C2 /* CalendarView.swift */,
+				66FCAD2729A3C43A00A9D7C2 /* MessageLogicView.swift */,
+				66FCAD2929A3C47C00A9D7C2 /* MessageView.swift */,
+				66FCAD2B29A3C50B00A9D7C2 /* ContentMessageView.swift */,
 				66FCACF229A3B78700A9D7C2 /* Assets.xcassets */,
 				66FCACF729A3B78700A9D7C2 /* Persistence.swift */,
 				66FCACF929A3B78700A9D7C2 /* SecondChance.xcdatamodeld */,
@@ -239,6 +266,7 @@
 			files = (
 				66FCACF629A3B78700A9D7C2 /* Preview Assets.xcassets in Resources */,
 				66FCACF329A3B78700A9D7C2 /* Assets.xcassets in Resources */,
+				660CBF1029A513B200953451 /* FacetimeClone in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +294,14 @@
 				66FCACF829A3B78700A9D7C2 /* Persistence.swift in Sources */,
 				66FCACF129A3B78600A9D7C2 /* ContentView.swift in Sources */,
 				66FCACEF29A3B78600A9D7C2 /* SecondChanceApp.swift in Sources */,
+				66FCAD2229A3BB1F00A9D7C2 /* MentorTabView.swift in Sources */,
+				66FCAD2029A3BAA200A9D7C2 /* MentorHubView.swift in Sources */,
+				66FCAD2629A3C1EB00A9D7C2 /* CalendarView.swift in Sources */,
+				66FCAD2C29A3C50B00A9D7C2 /* ContentMessageView.swift in Sources */,
+				66FCAD2A29A3C47D00A9D7C2 /* MessageView.swift in Sources */,
+				66FCAD1E29A3BA4B00A9D7C2 /* OnboardingView.swift in Sources */,
+				66FCAD2829A3C43A00A9D7C2 /* MessageLogicView.swift in Sources */,
+				66FCAD2429A3BF8000A9D7C2 /* FaceTimeView.swift in Sources */,
 				66FCACFB29A3B78700A9D7C2 /* SecondChance.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,7 +473,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = MSU.SecondChance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -451,6 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SecondChance/Preview Content\"";
@@ -466,9 +503,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = MSU.SecondChance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
